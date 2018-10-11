@@ -1,0 +1,82 @@
+/*universal styling*/
+
+html {
+  font-size: 18px;
+  line-height: 1.4rem;
+  font-family: Helvetica sans-serif;
+  background-color: white;
+}
+
+/*containers*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 960px;
+}
+
+/*header*/
+
+header {
+  background-color: cadetblue;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  position: absolute;
+  z-index: 1;
+}
+/*logo*/
+/*main title*/
+/*navigation section*/
+/*banner*/
+
+.main-banner {
+  background-image: url();
+  width: 100%;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/*slogan*/
+/*icons*/
+
+.icons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 14rem;
+  padding: 3rem 0;
+}
+
+/*paper*/
+/*ruler*/
+/*truck*/
+/*info*/
+
+.info {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+/*philosophy*/
+/*appointments*/
+/*footer*/
+
+.footer {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem 4rem;
+  width: 100%;
+}
+/*logo*/
+/*copyright*/

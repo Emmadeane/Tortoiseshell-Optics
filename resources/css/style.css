@@ -127,8 +127,6 @@ header .container {
   padding: 3rem 0rem;
 }
 
-/*paper*/
-
 .paper,
 .ruler,
 .truck {
@@ -152,18 +150,15 @@ header .container {
   width: 3.5rem;
   padding-bottom: 1rem;
 }
-/*ruler*/
 
-.ruler img {
-  width: 5rem;
-  padding-bottom: 1rem;
-}
-/*truck*/
+/*ruler and truck*/
 
+.ruler img,
 .truck img {
   width: 5rem;
   padding-bottom: 1rem;
 }
+
 /*info*/
 
 .info {
@@ -174,7 +169,7 @@ header .container {
 
 }
 
-/*philosophy*/
+/*philosophy and appointments*/
 
 .philosophy,
 .appointments {
@@ -200,18 +195,31 @@ header .container {
   padding: 0.5rem 1.25rem;
   margin-bottom: 1rem;
 }
-/*appointments*/
-
 
 /*footer*/
 
-.footer {
+footer .container {
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
   background-color: azure;
   padding: 4rem 4rem;
-  width: 100%;
+  width: 960px;
+  margin-left: 10rem;
 }
+
 /*logo*/
+
+.logob {
+  justify-content: flex-start;
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
 /*copyright*/
+
+.copyright {
+  font-family: Helvetica;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}

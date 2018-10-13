@@ -56,6 +56,7 @@ header .container {
 .maintitle {
   align-self: center;
 }
+
 .logo  {
   justify-content: flex-start;
   align-items: center;
@@ -63,7 +64,8 @@ header .container {
 
 /*navigation section*/
 
-.desktop li {
+.desktop li,
+.mobile li {
   display: inline-flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -72,10 +74,17 @@ header .container {
 }
 
 .desktop a,
-.desktop a:visited {
+.desktop a:visited,
+.mobile a,
+.mobile a:visited {
   color: white;
   text-decoration: none;
 }
+
+.mobile {
+  display: none;
+}
+
 /*banner*/
 
 .main-banner {

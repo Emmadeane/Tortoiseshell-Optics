@@ -18,17 +18,64 @@ html {
 
 /*header*/
 
-header {
+header .container {
   background-color: cadetblue;
   font-size: 1rem;
-  padding: 1rem 2rem;
+  padding: 0.75rem 2rem;
   margin: 1rem 0;
   position: absolute;
   z-index: 1;
+  width: 960px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
+
 /*logo*/
+
+.logow {
+  height: 1.5rem;
+  padding-right: 1rem;
+  justify-content: flex-start;
+}
+
+
 /*main title*/
+
+.maintitle,
+.desktop {
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+
+}
+
+.maintitle {
+  align-self: center;
+}
+.logo  {
+  justify-content: flex-start;
+  align-items: center;
+}
+
 /*navigation section*/
+
+.desktop li {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.desktop a,
+.desktop a:visited {
+  color: white;
+  text-decoration: none;
+}
 /*banner*/
 
 .main-banner {

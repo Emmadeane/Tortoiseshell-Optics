@@ -225,7 +225,7 @@ footer .container {
 }
 
 /*media queries to resize page correctly for tablet size screen*/
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
   header .container {
     margin: 0;
     position: absolute;
@@ -264,3 +264,96 @@ footer .container {
   }
 }
 /*media queries to resize page correctly for mobile size screen*/
+
+@media only screen and (max-width: 480px) {
+
+  header .container {
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    width: 86%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+
+  .main-banner {
+    height: 17rem;
+    width: auto;
+    background-position: 20%;
+  }
+
+  .slogan {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem 0;
+    margin-top: 9rem;
+    margin-right: 0;
+    text-align: center;
+
+  }
+
+  .icons {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    height: auto;
+    padding: 3.77rem 0rem;
+  }
+
+  .paper,
+  .ruler,
+  .truck {
+    padding-left: 0;
+    font-size: 0.77rem;
+  }
+
+  .paper,
+  .ruler {
+    margin-bottom: 1.54rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .philosophy,
+  .appointments,
+  .title {
+    width: 100%;
+  }
+
+  .philosophy,
+  .appointments {
+    font-size: 0.77rem;
+  }
+
+  .p {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  footer .container {
+    margin-left: 0;
+    justify-content: center;
+    width: 81%;
+  }
+
+  .logob {
+    padding-right: 0;
+  }
+
+  .copyright {
+    display: none;
+  }
+}

@@ -223,3 +223,44 @@ footer .container {
   font-size: 1rem;
   line-height: 1.4rem;
 }
+
+/*media queries to resize page correctly for tablet size screen*/
+@media only screen and (max-width: 1024px) {
+  header .container {
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main-banner {
+    height: 22rem;
+  }
+
+  .slogan {
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .icons,
+  .info,
+  footer {
+    width: 100%;
+  }
+
+  .info {
+    justify-content: space-around;
+  }
+
+  footer .container {
+    margin-left: 0;
+    margin-bottom: 4rem;
+  }
+}
+/*media queries to resize page correctly for mobile size screen*/
